@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="#F5F5F5"/>
+  
+  <!-- Status bar -->
+  <rect width="1080" height="80" fill="#FF85A2"/>
+  
+  <!-- App header with back button -->
+  <rect y="80" width="1080" height="120" fill="#FFFFFF"/>
+  
+  <!-- Profile picture in header -->
+  <circle cx="130" cy="140" r="40" fill="#5D9FFF"/>
+  
+  <!-- Name in header -->
+  <rect x="200" y="120" width="300" height="40" fill="#333333"/>
+  
+  <!-- Chat bubbles -->
+  <!-- Received messages -->
+  <rect x="50" y="250" width="500" height="100" rx="16" fill="#FFFFFF"/>
+  <rect x="50" y="400" width="400" height="80" rx="16" fill="#FFFFFF"/>
+  <rect x="50" y="700" width="450" height="120" rx="16" fill="#FFFFFF"/>
+  <rect x="50" y="1050" width="350" height="70" rx="16" fill="#FFFFFF"/>
+  
+  <!-- Sent messages -->
+  <rect x="530" y="530" width="500" height="120" rx="16" fill="#5D9FFF"/>
+  <rect x="630" y="850" width="400" height="150" rx="16" fill="#5D9FFF"/>
+  <rect x="680" y="1170" width="350" height="70" rx="16" fill="#5D9FFF"/>
+  <rect x="580" y="1290" width="450" height="100" rx="16" fill="#5D9FFF"/>
+  
+  <!-- Message input area -->
+  <rect y="1740" width="1080" height="100" fill="#FFFFFF"/>
+  <rect x="80" y="1760" width="800" height="60" rx="30" fill="#F0F0F0"/>
+  <circle cx="960" cy="1790" r="30" fill="#FF85A2"/>
+  
+  <!-- Navigation bar -->
+  <rect y="1840" width="1080" height="80" fill="#F9F9F9"/>
+  <circle cx="270" cy="1880" r="30" fill="#CCCCCC"/>
+  <circle cx="540" cy="1880" r="30" fill="#CCCCCC"/>
+  <circle cx="810" cy="1880" r="30" fill="#FF85A2"/>
+</svg>

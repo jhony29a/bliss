@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-purple-light: #a667f0;
+  --color-purple: #8a3ce1;
+  --color-purple-dark: #6622c3;
+  --color-purple-lighter: #c39bfa;
+  --color-purple-darker: #4b1791;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F8F9FA;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(45deg, var(--color-purple), var(--color-purple-light));
+  }
+  
+  .gradient-purple {
+    background: linear-gradient(45deg, var(--color-purple-dark), var(--color-purple-light));
+  }
+  
+  .text-purple {
+    color: var(--color-purple);
+  }
+  
+  .bg-purple {
+    background-color: var(--color-purple);
+  }
+  
+  .border-purple {
+    border-color: var(--color-purple);
+  }
+  
+  .chat-bubble-received {
+    border-top-left-radius: 0.125rem;
+    background-color: var(--color-purple-lighter);
+  }
+  
+  .chat-bubble-sent {
+    border-top-right-radius: 0.125rem;
+    background-color: var(--color-purple);
+    color: white;
+  }
+}
+
+/* Typing animation */
+.typing-indicator span {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+  animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) { animation-delay: 0s; }
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  
+  <!-- Status bar -->
+  <rect width="1080" height="80" fill="#FF85A2"/>
+  
+  <!-- App header -->
+  <rect y="80" width="1080" height="120" fill="#F9F9F9"/>
+  <text x="540" y="155" font-family="Arial" font-size="40" font-weight="bold" fill="#333333" text-anchor="middle">Explorar</text>
+  
+  <!-- Profile card -->
+  <rect x="50" y="240" width="980" height="1200" rx="16" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="2"/>
+  <rect x="50" y="240" width="980" height="800" rx="16" fill="#5D9FFF"/>
+  
+  <!-- Profile name and details -->
+  <rect x="100" y="1080" width="500" height="50" fill="#333333"/>
+  <rect x="100" y="1150" width="400" height="30" fill="#666666"/>
+  <rect x="100" y="1200" width="300" height="30" fill="#666666"/>
+  
+  <!-- Like/dislike buttons -->
+  <circle cx="340" cy="1550" r="70" fill="#FFFFFF" stroke="#FF4D4D" stroke-width="4"/>
+  <circle cx="540" cy="1550" r="70" fill="#4CAF50"/>
+  <circle cx="740" cy="1550" r="70" fill="#FFFFFF" stroke="#5D9FFF" stroke-width="4"/>
+  
+  <!-- Navigation bar -->
+  <rect y="1840" width="1080" height="80" fill="#F9F9F9"/>
+  <circle cx="270" cy="1880" r="30" fill="#FF85A2"/>
+  <circle cx="540" cy="1880" r="30" fill="#CCCCCC"/>
+  <circle cx="810" cy="1880" r="30" fill="#CCCCCC"/>
+</svg>
